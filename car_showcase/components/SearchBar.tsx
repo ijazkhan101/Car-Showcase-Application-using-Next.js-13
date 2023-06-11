@@ -1,8 +1,14 @@
+"use client";
 import React from "react";
 
 const SearchBar= () =>{
+    const handleSearch = () => {
+        
+    }
     return(
-        <div>Search</div>
+        <form className="searchbar" onSubmit={handleSearch}>
+
+        </form>
     )
 }
 
